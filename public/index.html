@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Forum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Forum</h1>
+
+  <form id="postForm" enctype="multipart/form-data">
+    <input name="title" placeholder="Post title">
+    <textarea name="body" placeholder="Markdown supported"></textarea>
+    <input type="file" name="file">
+    <button>Post</button>
+  </form>
+
+  <div id="posts"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
